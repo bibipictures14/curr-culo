@@ -34,25 +34,27 @@
             <!-- Projeto 1 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/projeto-1.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <img src="img/projeto-1.jpg" class="card-img-top" alt="Imagem do projeto sala de aula">
                     <div class="card-body">
                         <h5 class="card-title">Sala de aula: Mesa do professor</h5>
                         <p class="card-text">Esta é a mesa do professor com estante no fundo para
                             guardar suas coisas de trabalho. com uma mesa espaçosa e uma cadeira confortável.
                         </p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
                 </div>
             </div>
             <!-- Projeto 2 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/projeto-2.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <img src="img/projeto-2.jpg" class="card-img-top" alt="Imagem do projeto sala de aula">
                     <div class="card-body">
                         <h5 class="card-title">Sala de aula: Todo o projeto</h5>
                         <p class="card-text">Esta é a visão de cima da sala de aula, que mostra todo o projeto 
                             em um modelo menor.</p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                                o projeto</button>
                     </div>
                 </div>
             </div>
@@ -60,23 +62,83 @@
             <!-- Projeto 3 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/projeto-3.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <img src="img/projeto-3.jpg" class="card-img-top" alt="Imagem do projeto sala de aula">
                     <div class="card-body">
                         <h5 class="card-title">Sala de aula: Visão da janela</h5>
                         <p class="card-text">Aqui mostra a sala de aula pela janela, onde mostra a lousa, e no fundo um
                             quadro de avisos da turma, com carteiras confortáveis para os alunos.
                         </p>
-                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
+        <!-- Modal 1 -->
+        <div class="modal" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sala de aula: Mesa do professor</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O projeto mostra o modelo de cadeira e mesa para um melhor conforto do professor, além 
+                            de um bom espaço para o profissional deixar seus materiais e exercer suas atividades.
+                        </p>
+                        <img src="img/projeto-1.jpg" class="img-fluid w-100"
+                            alt="Imagem representativa do projeto sala de aula">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2 -->
+        <div class="modal" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sala de aula: Todo o projeto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Aqui podemos ver a imagem de cima mostrando todos os detalhes da sala
+                            pensada diretamente no conforto dos alunos e professores, pois com conforto
+                            um melhor trabalho pode ser realizado.
+                        </p>
+                        <img src="img/projeto-2.jpg" class="img-fluid w-100"
+                            alt="Imagem representativa do projeto sala de aula">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal 3 -->
+        <div class="modal" id="modal3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sala de aula: Visão da janela</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>O projeto mostra o modelo de janela mais ampla, onde podemos vizualizar também uma grande lousa
+                            para os professores.
+                        </p>
+                        <p>A sala também contém um quadro de avisos maior para os recados da turma, e os modelos
+                            de carteira usadas para um melhor conforto dos alunos.
+                        </p>
+                        <img src="img/projeto-3.jpg" alt="Projeto 3" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <footer class="container py-5, my-5 text-center">
         <h2>Entre em contato</h2>
         <div>
-            <a href="beatriz.gabe@escola.pr.gov.br">Email</a>
+            <a href="https://github.com/bibipictures14/curr-culo">Github</a>
         </div>
         <p class="my-5 text-center">© Copyright 2024. Produzido por Beatriz Gabe</p>
     </footer>
